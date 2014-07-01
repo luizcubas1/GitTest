@@ -13,7 +13,11 @@ var program = function(){
 	this.name = '';
 	this.site = 'http://www.fulanosites.com';
 	
-	this.constructor = function(newname){
+	this.constructor = function(name){
+		self.name = self.setName(name);
+	}
+	
+	this.setName = function(newname){
 		self.name = newname;
 	}
 	
