@@ -7,5 +7,8 @@ var program = function(){
 	
 	this.user = 'Fulano';
 	this.age = 35;
+	
+	this.name = 'Fulano de Souza';
+	this.site = 'http://www.fulanosites.com';
 
 }
