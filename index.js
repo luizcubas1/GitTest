@@ -21,4 +21,8 @@ var program = function(){
 		self.name = newname;
 	}
 	
+	this.setAge = function(newAge){
+		self.age = newAge;
+	}
+	
 }
