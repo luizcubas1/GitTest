@@ -7,18 +7,22 @@ var program = function(){
 	
 	var self = this;
 	this.user = 'Fulano';
-	this.age = 35;
+	this.age = false;	
 	
-	//this.name = 'Fulano de Souza';
 	this.name = '';
 	this.site = 'http://www.fulanosites.com';
 	
 	this.constructor = function(name){
-		self.name = self.setName(name);
+		self.setName(name);
+		self.setAge(name); 
 	}
 	
-	this.setName = function(newname){
-		self.name = newname;
+	this.setName = function(newName){
+		self.name = newName;
+	}
+	
+	this.setAge = function(newAge){
+		self.age = newAge;
 	}
 	
 }
