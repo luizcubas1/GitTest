@@ -15,10 +15,15 @@ var program = function(){
 	
 	this.constructor = function(name){
 		self.name = self.setName(name);
+		selfage = self.setAge(newAge);
 	}
 	
 	this.setName = function(newname){
 		self.name = newname;
+	}
+	
+	this.setAge = function(newAge){
+		self.age = newAge;
 	}
 	
 }
